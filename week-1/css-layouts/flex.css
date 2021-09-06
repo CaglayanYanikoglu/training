@@ -1,0 +1,88 @@
+h1, h2 {
+  text-align: center;
+}
+.container {
+  border: 1px solid green;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.box {
+  width:  80px;
+  height: 100px;
+  background-color: aqua;
+}
+.box:last-of-type {
+  /* margin-left: 10px; */
+}
+p {
+  margin: 0;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap div {
+  border: 1px solid black;
+  width: 150px;
+  height: 100px;
+}
+.second-container {
+  display: flex;
+  width: 300px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-end;
+  background: lightgray;
+  height: 400px;
+}
+.child {
+  padding: 12px;
+  background: red;
+  border: solid 1px black;
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order div:last-of-type {
+  color: red;
+  order: -3;
+}
+
+.order div:first-of-type {
+  color: green;
+  order: 6;
+}
+
+.grow-example {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grow-example > div {
+  background-color: rgb(204, 161, 161);
+  /* flex: 2; */
+  text-align: center;
+  border: 1px solid black;
+}
+
+.grow-example > div:first-child, .grow-example > div:last-of-type {
+  /* flex: 1; */
+}
+
+.grow-example > div:first-child {
+  /* flex-basis: 100%; */
+  align-self: center;
+  justify-self: end;
+}
+
+

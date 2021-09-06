@@ -1,0 +1,164 @@
+:root {
+   --black: #001219;
+   --aqua: #005f73;
+   --turquois: #0a9396;
+   --cyan: #94d2bd;
+   --cream: #e9d8a6;
+   --orange: #ee9b00;
+   --brown: #bb3e03;
+   --red: #ae2012;
+   --crimson: #9b2226;
+}
+
+/* Universal Selector */
+
+* {
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Type Selector */
+
+body {
+   background-color: var(--cream);
+   color: white;
+}
+
+h2 {
+   color: var(--orange);
+}
+
+p {
+   background-color: var(--aqua);
+   padding: 10px;
+   border-radius: 10px;
+}
+
+input {
+   border: 3px var(--aqua) solid;
+   border-radius: 5px;
+}
+
+a {
+   display: block;
+}
+
+/* Comma Combinator Selector */
+
+h1,
+li {
+   color: var(--aqua);
+}
+
+/* Class Selector */
+.hello {
+   background-color: var(--orange);
+}
+
+/* ID Selector */
+#special {
+   border: 4px var(--cyan) solid;
+}
+
+/* Child Selector */
+
+.lastDiv > label {
+   color: var(--turquois);
+}
+
+.lastDiv > h2 {
+ font-size: 14px;  
+}
+
+/* Descendant Selector */
+div p {
+   font-size: 14px;
+}
+
+/* Attribute Selector */
+
+input[type="password"] {
+   background-color: var(--turquois);
+   margin-bottom: 5px;
+}
+
+/* Nth of Child Selector */
+
+.checkList span:nth-child(3){
+    text-decoration: underline;
+}
+.checkList span:nth-of-type(3){
+    color: red !important;
+}
+.checkList span:nth-of-type(odd) {
+   background-color: #333;
+}
+.checkList span:not(:first-of-type) {
+   font-size: 30px;
+   margin-left: 30px;
+}
+/* Nth of Type Selector */
+
+div:nth-of-type(3) p {
+   background-color: var(--crimson);
+}
+
+div:nth-of-type(3) em {
+   color: var(--cream);
+   font-size: 20;
+}
+
+/* Combine Nth of Type Selectors */
+
+div:nth-of-type(3) p:nth-of-type(even) {
+   border: 5px var(--turquois) solid;
+}
+
+/* **** */
+
+/* Pseudo-classes */
+
+ul li input:checked {
+   margin-left: 10px;
+}
+
+/* input[type="checkbox"]:not(:checked) {
+   margin-left: 20px;
+} */
+
+h1:hover {
+   color: var(--turquois);
+}
+
+/* a:visited {
+   color: var(--brown);
+} */
+
+/* general sibling selector */
+div ~ p {
+   background-color: yellow;
+ }
+
+/* Pseudo-elements */
+
+#special::first-letter {
+   color: var(--cyan);
+   font-size: 100px;
+}
+
+/* ::selection {
+   background-color: var(--black);
+} */
+
+::-webkit-scrollbar {
+   width: 20px;
+}
+
+::-webkit-scrollbar-track {
+   background: var(--cream);
+}
+
+::-webkit-scrollbar-thumb {
+   background: var(--turquois);
+}
+

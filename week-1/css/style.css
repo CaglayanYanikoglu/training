@@ -1,0 +1,148 @@
+html {
+  /* font-size: 2rem; */
+}
+body {
+  /* font-size: 0.8em; */
+  padding: 20px;
+}
+
+.colorfull-text {
+  color: #56ac06;
+}
+
+.box-model {
+  margin: 20px 0;
+}
+
+.border-box-example {
+  padding: 10px;
+  background: red;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+}
+
+h1 {
+  text-align: center;
+}
+
+.text {
+  color: rgba(0, 255, 0, 1);
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  /* text-shadow: 2px 2px; */
+  /* text-shadow: 2px 2px red; */
+}
+
+a:hover {
+  color: red !important;
+}
+
+a:visited {
+  color: orange;
+}
+
+button:active, button:focus {
+  color: lightblue;
+  background-color: lightgoldenrodyellow;
+}
+
+.font {
+  font-family: Tahoma, Verdana, sans-serif; /* If the first font does not work, the browser will try the next one, and the next one, and so on. */
+  font-style: italic;
+  /* font-size: 2.5rem; */
+  font-size: 2.5em;
+}
+
+.ellipsis {
+  width: 200px; 
+  border: 1px solid #000000;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+table, td, th {
+  border: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.display-none {
+  display: none;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.relative {
+  margin-right: 100px;
+}
+
+.relative span {
+  position: absolute;
+  right: 0;
+}
+
+.overflow {
+  max-width: 200px;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.max-width-el {
+  max-width: 300px;
+  margin: auto; /* To center div */
+}
+
+.transform-div {
+  /* transform: translate(50px,100px); */
+  /* transform: rotate(20deg); */ /* Clockwise */
+}
+
+.transition {
+  background-color: orange;
+  transition: width 2s, height 4s;
+  opacity: 1;
+  /* transition: opacity 0.4s; */
+  transition: width 2s ease-in-out, height 3s;
+  width: 50px;
+  height: 50px;
+  transition-delay: 1s;
+}
+
+.transition:hover {
+  /* opacity: 0; */
+  width: 200px;
+  height: 300px;
+}
+
+@keyframes colorChange {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.animation-1 {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-duration: 4s;
+  animation-name: colorChange;
+  /* animation-timing-function: ease-in; */
+}

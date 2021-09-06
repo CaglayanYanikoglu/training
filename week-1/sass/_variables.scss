@@ -1,0 +1,11 @@
+/* he following example shows a partial Sass file named "_variables.scss". (This file will not be transpiled directly to "variables.css"): */
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+$myFont: Helvetica, sans-serif;
+
+@mixin important-text($fontSize) {
+  color: red;
+  font-size: $fontSize;
+  font-weight: bold;
+}

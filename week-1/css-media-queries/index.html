@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+      <title>Css Media Queries</title>
+   </head>
+   <body>
+      <h1>Media Queries</h1>
+      <p class="responsive-text">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+         voluptatum delectus, velit maxime qui nobis sint vitae voluptatem
+         repellat doloribus atque quibusdam fuga iusto sapiente modi, explicabo
+         omnis quo laborum?
+      </p>
+
+      <article id="articleElement">
+         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+         inventore numquam minima accusamus perspiciatis placeat nostrum eum,
+         magni ipsa maiores perferendis consequuntur vitae, nobis repudiandae.
+         Officiis quae ducimus amet architecto.
+      </article>
+
+      <aside id="asideElement">
+         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+         inventore numquam minima accusamus perspiciatis placeat nostrum eum,
+         magni ipsa maiores perferendis consequuntur vitae, nobis repudiandae.
+         Officiis quae ducimus amet architecto.
+      </aside>
+   </body>
+   <script>
+      window.addEventListener(
+         "resize",
+         function (e) {
+            console.clear();
+            console.log(
+               `%cWidth: ${window.innerWidth} Height: ${window.innerHeight}`,
+               "color:red;font-size: 30px"
+            );
+         },
+         true
+      );
+   </script>
+</html>

@@ -1,0 +1,87 @@
+* {
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+   --blue: #1e90ff;
+   --white: #ffffff;
+   --green: #00ff00;
+ }
+
+/* MOBILE VIEW */
+article,
+aside {
+   background-color: var(--blue);
+   min-height: 200px;
+   margin-top: 10px;
+   width: 100%;
+}
+h1::before {
+   content: "📱";
+}
+
+/* TABLET VIEW - On screens that are 480px or more (width > 480px) */
+
+@media (min-width: 480px) {
+   article {
+      background-color: var(--blue);
+      float: left;
+      width: 70%;
+
+   }
+
+   aside {
+      background-color: #999;
+      float: right;
+      width: 25%;
+   }
+   h1::before {
+      content: "🖼️ Tablet :) ";
+   }
+}
+
+/* SMALL DESKTOP VIEW -  On screens that are 768px or more (width > 768px)*/
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+   article {
+      background-color: #666;
+      width: 60%;
+   }
+
+   aside {
+      background-color: #666;
+      width: 35%;
+   }
+
+   body {
+      margin-left: 100px;
+      margin-right: 100px;
+   }
+   h1::before {
+      content: "💻";
+   }
+}
+
+/* DESKTOP VIEW - On screens that are 1024px or more (width > 768px) */
+
+@media screen and (min-width: 1024px) {
+   article,
+   aside {
+      background-color: #333;
+      width: 48%;
+      color: white;
+   }
+   h1::before {
+      content: "🖥️";
+   }
+}
+
+/* You can define different rules for a printer but all css rules may not apply. */
+
+@media print {
+   article,
+   aside {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 40px;
+   }
+}

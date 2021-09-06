@@ -1,0 +1,7 @@
+Selectors cheatsheet
+https://codepen.io/nana8/full/aXQgoj
+
+Selectors cheatsheet medium
+https://medium.com/design-code-repository/css-selectors-cheatsheet-details-9593bc204e3f
+
+https://codepen.io/ceda99/pen/rwwoeV

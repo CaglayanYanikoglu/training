@@ -1,0 +1,33 @@
+/* To create a variable with global scope, declare it inside the :root selector. The :root selector matches the document's root element. */
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --green: #00ff00;
+}
+
+h1 {
+  color: var(--blue);
+}
+
+h3 {
+  text-align: center;
+  color: var(--blue);
+}
+
+button {
+  --blue: #0000ff; /* We see that the local --blue variable will override the global --blue variable for the button elements: */
+  background-color: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 5px;
+}
+
+.fallback {
+  color: var(--red, #ff0000);  /* header-color isn’t set, and so remains red, the fallback value */
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    color: var(--green) !important;
+  }
+}

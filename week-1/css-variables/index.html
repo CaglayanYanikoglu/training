@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Variables</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Variables</h1>
+  <h3>Test text</h3>
+  <button onclick="showColor()">Get Color</button>
+  <button onclick="setNewColor()">Set New Color</button>
+  <h2 class="fallback">Fallback</h2>
+  <script>
+    // Get the root element
+    var r = document.querySelector(':root');
+    function showColor() {
+      var rs = getComputedStyle(r);
+      // Alert the value of the --blue variable
+      alert("The value of --blue is: " + rs.getPropertyValue('--blue'));
+    }
+    function setNewColor() {
+      r.style.setProperty('--blue', 'lightblue');
+    }
+  </script>
+</body>
+
+</html>

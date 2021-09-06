@@ -1,0 +1,31 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+.test-span {
+  color: red;
+}
+
+#test-span-id {
+  font-size: 20px;
+}
+
+span {
+  font-size: 40px;
+}

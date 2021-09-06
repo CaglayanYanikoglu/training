@@ -1,0 +1,76 @@
+/* A browser does not understand Sass code. Therefore, you will need a Sass pre-processor to convert Sass code into standard CSS.
+
+This process is called transpiling. So, you need to give a transpiler (some kind of program) some Sass code and then get some CSS code back. */
+/* Define standard variables and values for website */
+/* he following example shows a partial Sass file named "_variables.scss". (This file will not be transpiled directly to "variables.css"): */
+/* Use the variables */
+body {
+  background-color: lightblue;
+  color: darkblue;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  padding: 30px;
+}
+
+/* Nesting */
+div {
+  background-color: #aaa;
+}
+
+div p {
+  font-weight: bold;
+}
+
+div p > span {
+  background-color: green;
+}
+
+div p span {
+  color: red;
+}
+
+div h1 {
+  color: yellow;
+}
+
+div span {
+  color: blue;
+}
+
+div span.special {
+  font-size: 40px;
+}
+
+/* For different browser settings */
+.browser {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.global {
+  color: red;
+}
+
+.global-2 {
+  color: red;
+}
+
+s .danger {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+
+.button-basic, .button-report {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-report {
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */

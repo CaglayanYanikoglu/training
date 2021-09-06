@@ -1,0 +1,5 @@
+SASS ve SCSS Kurulum ve Kullanımı
+https://www.youtube.com/watch?v=kfgAQWaJq5c
+
+SASS vs LESS
+https://www.ionos.com/digitalguide/websites/web-development/sass/#:~:text=One%20difference%2C%20though%2C%20is%20that,Ruby%2C%20while%20LESS%20uses%20JavaScript.&text=Code%20in%20LESS%20is%20automatically,SASS%20is%20a%20bit%20older.
