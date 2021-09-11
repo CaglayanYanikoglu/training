@@ -1,0 +1,58 @@
+Css After, Before
+Boostrap ve CSS Frameworkleri
+JS nedir?
+Js Load (Async, defer)
+document.write(), console.log()
+Variables, ES6 let, const, var
+Hoisting
+Arithmetic işlemler
+Veri türleri (string, number, booelan, object, array)
+String Veri Türü İşlemleri
+Template Literals Kullanımı
+Document Object Model(DOM) Nedir
+DOM içerisinden Etiket ve ID ile Öğe Seçimi
+DOM ADDEventListener
+DOM node relationship
+prompt ile Kullanıcıdan Bilgi Almak
+Liste içerisindeki Öğeye Erişmek ve Yeni Öğe Eklemek
+DOM'a CSS Class Bilgisi Eklemek veya Çıkarmak
+Karşılaştırma Operatörleri ve Mantıksal Operatörler
+Koşul Yapısı Kullanımı (if / else)
+Çoklu Koşul Yapısı Kullanımı
+Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı
+Fonksiyonlar
+Fonksiyon Nedir ? Neden Kullanırız?
+Fonsiyona Parametre(params) ve Geridönüş(return) Eklemek
+ Arrow () => Fonksiyonu Kullanımı
+DOM Etkinlikleriyle Çalışmak
+localStorage
+localStorage ile Veri Eklemek, Düzenlemek ve Silmek
+localStorage içerisine Farklı Türde Veriler Eklemek
+Dizi(Array) Veri Tipiyle Çalışmak
+Dizi(Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak
+Diziye Yeni Eleman Eklemek, Çıkartmak ve Güncellemek
+Array(Dizi) Metotlarının Kullanımı 
+for Döngüsü Kullanımı
+break ve continue Kullanımı
+while Döngüsü
+forEach ile Array içerisindeki Öğelerin Çağrılması
+Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye
+Eklenmesi
+Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste
+Oluşturulması
+Nesne(Object)
+Object(Nesne) Nedir? Nasıl Oluşturulur?
+Object Anahtar(Key) ve Değer(Value) Yapısının Kullanımı / Erişimi
+Nesnelere Nasıl Metot Ekleriz?
+Object ve Array Destructuring Kullanımı
+try ve catch kullanımı
+Fetch API
+Fetch API ile Çalışmak
+JS isteklerinde Network takibi
+
+Day 2
+Callback // Promise //
+Async Javascript
+Comments // /* */
+Debugging
+GIT
