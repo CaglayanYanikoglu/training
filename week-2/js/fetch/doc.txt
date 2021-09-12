@@ -1,0 +1,7 @@
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+https://medium.com/beginners-guide-to-mobile-web-development/the-fetch-api-2c962591f5c
+
+https://www.geeksforgeeks.org/difference-between-fetch-and-axios-js-for-making-http-requests/
+
+https://blog.logrocket.com/axios-or-fetch-api/
