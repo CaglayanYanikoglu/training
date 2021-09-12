@@ -1,0 +1,3 @@
+stopPropagation()
+Bubbling and capturing explained
+explain document, window, events

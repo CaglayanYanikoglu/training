@@ -20,6 +20,9 @@ Karşılaştırma Operatörleri ve Mantıksal Operatörler
 Koşul Yapısı Kullanımı (if / else)
 Çoklu Koşul Yapısı Kullanımı
 Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı
+for Döngüsü Kullanımı
+break ve continue Kullanımı
+while Döngüsü
 Fonksiyonlar
 Fonksiyon Nedir ? Neden Kullanırız?
 Fonsiyona Parametre(params) ve Geridönüş(return) Eklemek
@@ -32,9 +35,6 @@ Dizi(Array) Veri Tipiyle Çalışmak
 Dizi(Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak
 Diziye Yeni Eleman Eklemek, Çıkartmak ve Güncellemek
 Array(Dizi) Metotlarının Kullanımı 
-for Döngüsü Kullanımı
-break ve continue Kullanımı
-while Döngüsü
 forEach ile Array içerisindeki Öğelerin Çağrılması
 Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye
 Eklenmesi
@@ -49,10 +49,10 @@ try ve catch kullanımı
 Fetch API
 Fetch API ile Çalışmak
 JS isteklerinde Network takibi
+Comments // /* */
 
 Day 2
 Callback // Promise //
 Async Javascript
-Comments // /* */
 Debugging
 GIT

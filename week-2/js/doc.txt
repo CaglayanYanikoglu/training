@@ -1,0 +1,10 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+https://github.com/getify/You-Dont-Know-JS
+
+Debugging:
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong
+
+https://javascript.plainenglish.io/30-awesome-javascript-shorthand-techniques-that-are-good-to-know-6590545ced3d
+
+https://www.w3schools.com/js/js_es6.asp
