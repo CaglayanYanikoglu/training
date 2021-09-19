@@ -1,0 +1,15 @@
+Week 3 - Week 4:
+Node environment, (v8 motor)
+npm, yarn, npx, nvm
+Task runners (gulp)
+Module bundlers (webpack, webpack loader, babel)
+Lint, clean code
+oop
+Inheritance
+this - binding
+Reference Types
+Mutations
+ES6, EcmaScript // var => let,const , arrow function () => , Spread ({...remain})
+Closures, 
+Event Loop
+JS Feature Stages

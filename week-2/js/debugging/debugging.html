@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debugging</title>
+
+</head>
+
+<body>
+  <div class="container">
+
+  </div>
+  <script>
+    /* debugger; */
+    let variable = 16;
+    console.log('variable 1:', variable);
+    variable *= 2;
+    /* console.log('variable 2', variable); */
+    const containerEl = document.querySelector('.container');
+    const sumNumber = variable + 34;
+    containerEl.innerHTML = sumNumber;
+    const animals = [
+      { animal: 'Horse', name: 'Henry', age: 43 },
+      { animal: 'Dog', name: 'Fred', age: 13 },
+      { animal: 'Cat', name: 'Frodo', age: 18 }
+    ];
+    /* console.log(animals); */
+    console.table(animals);
+
+    //TODO: Show mobile view in chrome.
+
+  /*   console.time('Timer1');
+
+    const items = [];
+
+    for (let i = 0; i < 100000; i++) {
+      items.push({ index: i });
+    }
+
+    console.timeEnd('Timer1'); */
+
+  </script>
+
+</body>
+
+</html>

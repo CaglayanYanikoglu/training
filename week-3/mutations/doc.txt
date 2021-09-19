@@ -1,0 +1,5 @@
+https://blog.bitsrc.io/understanding-javascript-mutation-and-pure-functions-7231cc2180d3
+
+https://codepen.io/webgeeker/pen/YjrZgg
+
+https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver

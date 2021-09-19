@@ -1,0 +1,17 @@
+{
+  "name": "test-package",
+  "version": "1.0.0",
+  "description": "This description is a test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caglayan",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0"
+  }
+}

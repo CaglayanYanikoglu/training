@@ -1,0 +1,12 @@
+https://nodejs.dev/learn/npm-dependencies-and-devdependencies
+
+npm vs yarn
+https://www.whitesourcesoftware.com/free-developer-tools/blog/npm-vs-yarn-which-should-you-choose/
+
+https://lihautan.com/what-is-module-bundler-and-how-does-it-work/
+
+Gulp Türkçe Kaynak
+https://medium.com/@ozluy/gulp-nedir-baz%C4%B1-temel-gulp-tasklar%C4%B1-9e884651397e
+
+Event Loop
+https://www.youtube.com/watch?v=8aGhZQkoFbQ

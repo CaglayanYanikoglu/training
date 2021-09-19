@@ -1,0 +1,8 @@
+
+https://medium.com/frontend-development-with-js/non-blocking-i-o-rest-supported-mobile-web-frameworks-5cae251a0b90
+
+https://medium.com/frontend-development-with-js/promise-2-callback-async-eventemiter-f76ca77a6ce5
+
+https://medium.com/frontend-development-with-js/promise-3-event-loop-1986a06b0f94
+
+https://medium.com/frontend-development-with-js/promise-4-promise-kavram%C4%B1-3aa01c4d4807

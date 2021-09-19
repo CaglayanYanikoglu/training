@@ -1,0 +1,35 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "install": "^0.13.0",
+    "moment": "^2.29.1",
+    "npm": "^7.24.0",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "lodash": "^4.17.21"
+  }
+}
