@@ -1,0 +1,6 @@
+https://reactjs.org/docs/create-a-new-react-app.html
+
+https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/25595350?start=0#overview
+
+Eslint in React
+https://medium.com/@RossWhitehouse/setting-up-eslint-in-react-c20015ef35f7
