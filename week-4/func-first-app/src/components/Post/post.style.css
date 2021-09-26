@@ -1,0 +1,11 @@
+.postContainer {
+  background-color: rgb(47 51 56);
+  border: 2px solid black;
+}
+
+.postContainer p {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  padding-bottom: 5px;
+}
