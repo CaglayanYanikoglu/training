@@ -48,10 +48,16 @@ function App() {
     console.log('use effect counter changed');
   }, [counter]);
 
+  // input onChange method #1
   const handleSearch = (event) => {
     setSearchWord(event.target.value);
     /* const filteredData = posts.filter(item => item.title.includes(event.target.value));
     setFilteredData(filteredData); */
+  };
+
+  // input onChange method #2
+  const onChnageInput = (setter) => (event) => {
+    setter(event.target.value);
   };
 
   useEffect(() => {
@@ -70,7 +76,11 @@ function App() {
       <p>Hello Functional Compenent!</p>
       {/* <p> Counter: {counter}</p>
       <button onClick={() => setCounter(counter + 1)}>Increase Counter</button> */}
-      <input type='text' value={searchWord} onChange={handleSearch} />
+      <input
+        type='text'
+        value={searchWord}
+        onChange={onChnageInput(setSearchWord)}
+      />
       <div className='posts-container'>
         {filteredData.map((post) => (
           <Post post={post} />
