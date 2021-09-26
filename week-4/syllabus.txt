@@ -1,0 +1,32 @@
+OOP, Inheritance, This-Bind, Webpack Tekrar
+Ödev Kontrolü
+React nedir?
+SPA nedir?
+React Component nedir?
+Neden Component kullanılır?
+React Class Component
+Render nedir?
+Class Constructor
+React Fragment
+React Attr Name (className)
+React Arrow function Farkı
+React if kullanımı
+State, props nedir?
+setState
+State sadece object mi olabilir?
+React style (inline-sass)
+React Lifecycles
+constructor ,componentDidMount, componentDidUpdate(prevProps, prevState, snapshot), componentWillUnmount(), shouldComponentUpdate()
+static getDerivedStateFromProps(props, state),  shouldComponentUpdate(nextProps, nextState) {
+React One Top Level Element
+React.Memo // NOT useMemo
+React Function Component
+React Hooks
+useState, useEffect, useEffect return
+React project
+
+
+React lazy load (week 5)
+React router (week 5)
+Custom Hooks (week 5)
+createPortal() (week 5-6)

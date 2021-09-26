@@ -1,0 +1,11 @@
+* {
+  font-size: 16px;
+}
+.container{
+  background-color: #ddd;
+  color: red !important;
+  & > p {
+    color: green !important;
+  }
+}
+

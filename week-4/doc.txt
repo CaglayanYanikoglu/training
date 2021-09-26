@@ -1,0 +1,7 @@
+https://reactjs.org/docs/react-component.html
+
+for scss:
+https://www.npmjs.com/package/node-sass
+
+chrome extension:
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
