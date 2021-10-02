@@ -1,0 +1,28 @@
+React class ve functional component tekrar
+Hook rules // in condition, loop
+npm install eslint-plugin-react-hooks --save-dev
+Kod Review
+props.children
+React router
+Route Eşleşme sıralaması
+Reach useHistory, useLocation, useParams, useRouteMatch
+Gruplara bölünerek proje yapımı
+
+React Router Devam:
+React Code Splitting Introduction: https://reactrouter.com/web/guides/code-splitting
+React Lazy, Suspense (Router index.js içerisinde LazyApp)
+
+useContext, useReducer, useMemo, useCallback, useRef
+
+REST APIs
+
+Week 6:
+customHooks
+SSR vs Client Side Rendering
+React createPortal()
+Component Design Patterns
+Atomic Design
+Next.js Introduction
+Unit Testing
+Redux Introduction
+Styled Components Introduction
