@@ -11,15 +11,16 @@ Gruplara bölünerek proje yapımı
 React Router Devam:
 React Code Splitting Introduction: https://reactrouter.com/web/guides/code-splitting
 React Lazy, Suspense (Router index.js içerisinde LazyApp)
-
+useState, useEffect (main Hooks)
 useContext, useReducer, useMemo, useCallback, useRef
-
-REST APIs
+customHooks https://reactjs.org/docs/hooks-custom.html
+Customhooks: Does it have to start with "use"?
 
 Week 6:
-customHooks
-SSR vs Client Side Rendering
+REST APIs
+High order components https://levelup.gitconnected.com/understanding-react-higher-order-components-by-example-95e8c47c8006
 React createPortal()
+SSR vs Client Side Rendering
 Component Design Patterns
 Atomic Design
 Next.js Introduction
