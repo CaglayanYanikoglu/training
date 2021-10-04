@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body{
+  background-color: #6D9886;
+  font-family: 'Permanent Marker', cursive;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .daycontainer{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.header{
+  width: 100%;
+  background-color: #F9F3DF;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.content{
+  background-color: #CEE5D0;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  &-image{
+    width: 30%;
+    max-height: 200px;
+    border-radius: 10px;
+  }
+  &-body{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    &-title{
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+  }
+  &-select{
+    width: 50%;
+    max-height: 50px;
+    background-color: #6D9886;
+    border-radius: 10px;
+    border: 1px solid #6D9886;
+    font-size: 25px;
+    font-weight: 700;
+  font-family: 'Permanent Marker', cursive;
+
+  }
+
+
+}
+
+.dayarea{
+  width: 12%;
+  margin: 2px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFC898;
+  border-radius: 10px;
+  align-items: center;
+  padding: 5px;
+  &-date{
+    font-size: 25px;
+    font-weight: 700;
+  }
+  &-day{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  &-celcius{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  &-icon{
+    width: 75px;
+  }
+  &-desc{
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .dayarea{
+    &-date{
+      font-size: 15px;
+      font-weight: 700;
+    }
+    &-day{
+      font-size: 15px;
+      font-weight: 700;
+    }
+    &-celcius{
+      font-size: 12px;
+      font-weight: 700;
+    }
+    &-icon{
+      width: 75px;
+    }
+    &-desc{
+      font-size: 10px;
+      font-weight: 700;
+    }
+  }
+
+  .content-image{
+    width: 40%;
+    max-height: 300px;
+  }
+  .content-body-title{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .content-select{
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .dayarea{
+    &-date{
+      font-size: 10px;
+      font-weight: 700;
+    }
+    &-day{
+      font-size: 12px;
+      font-weight: 700;
+    }
+    &-celcius{
+      font-size: 10px;
+      font-weight: 700;
+    }
+    &-icon{
+      width: 75px;
+    }
+    &-desc{
+      font-size: 8px;
+      font-weight: 700;
+    }
+  }
+
+  .content-image{
+    width: 40%;
+    max-height: 300px;
+  }
+}
