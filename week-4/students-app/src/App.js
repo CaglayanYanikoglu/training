@@ -69,7 +69,8 @@ function App() {
     const timeout = setTimeout(() => {
       handleResult({
         show: false,
-        success: false
+        success: false,
+        ...result
       })
     }, 3000)
     return () => {
