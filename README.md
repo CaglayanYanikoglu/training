@@ -8,4 +8,5 @@
 - [Week 2](https://github.com/CaglayanYanikoglu/training/tree/main/week-2) &nbsp;featuring Advanced JS and Node.js.
 - [Week 3](https://github.com/CaglayanYanikoglu/training/tree/main/week-3) &nbsp;featuring Advanced JS and Node.js.
 - [Week 4](https://github.com/CaglayanYanikoglu/training/tree/main/week-4) &nbsp;featuring React Class and Functional components.
-- [Week 4](https://github.com/CaglayanYanikoglu/training/tree/main/week-5) &nbsp;featuring React Hooks and React Router.
+- [Week 5](https://github.com/CaglayanYanikoglu/training/tree/main/week-5) &nbsp;featuring React Hooks and React Router.
+  - [Blog_Project](https://github.com/ercumentlacin/react-router-dom-example) blog project to readme (best practices). Thanks to [@ercumentlacin](https://github.com/ercumentlacin/).
