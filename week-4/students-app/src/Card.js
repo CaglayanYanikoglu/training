@@ -1,15 +1,14 @@
 import React from 'react';
 
-function Card({
-  age, name
-}) {
-  console.log(name);
-  console.log(age);
+function Card({ age, name }) {
+  // console.log(name);
+  // console.log(age);
   return (
-    <div>
-      <p>Card Componentt</p>
-      <p>Age: {age}</p>
+    <div className="user">
+      <div className="user-icon"></div>
       <p>Name: {name}</p>
+      <p>Age: {age}</p>
+
     </div>
   )
 }
