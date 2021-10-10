@@ -1,0 +1,21 @@
+Day1:
+Styled Components Introduction https://styled-components.com/docs
+Reusable components / Atomic Design
+https://storybook.js.org/
+Pure functions
+React design patterns: https://reactpatterns.com/ 
+Furkan örnek: https://codesandbox.io/s/dreamy-brahmagupta-b9i4f?file=/src/components/Cart.js:61-72
+Redux
+Proje Yapımı
+
+Day 2:
+High order components https://levelup.gitconnected.com/understanding-react-higher-order-components-by-example-95e8c47c8006
+Side Effect
+React createPortal() intro
+Grup proje yapımı
+SSR vs Client Side Rendering intro
+SSR SEO Açısından önemi
+Next.js Introduction
+Test: https://medium.com/ableneo/testable-javascript-functional-programming-pure-functions-756e049bfd4a
+Unit Testing Çiçeksepeti
+
