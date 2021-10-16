@@ -11,11 +11,14 @@ Proje Yapımı
 Day 2:
 High order components https://levelup.gitconnected.com/understanding-react-higher-order-components-by-example-95e8c47c8006
 Side Effect
-React createPortal() intro
-Grup proje yapımı
+React createPortal() intro https://reactjs.org/docs/portals.html
+Bitirme projesi
 SSR vs Client Side Rendering intro
 SSR SEO Açısından önemi
 Next.js Introduction
+Grup proje yapımı
+
+---------------
 Test: https://medium.com/ableneo/testable-javascript-functional-programming-pure-functions-756e049bfd4a
 Unit Testing Çiçeksepeti
 

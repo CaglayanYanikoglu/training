@@ -1,0 +1,28 @@
+Final Week ^^
+Web sitesinde performans arttırma yöntemleri
+-Cachleme
+-Cdn kullanımı
+-Görsel optimizasyonu
+-Minify Files
+https://developer.mozilla.org/en-US/docs/Learn/Performance/What_is_web_performance
+SEO
+Sayfa hızı SEO'yu etkiler mi?
+Hız optimizasyonu için testler:
+-PageSpeed Insights https://developers.google.com/speed/pagespeed/insights/
+-GTMetrix https://gtmetrix.com/
+-Pingdom https://tools.pingdom.com/
+-Keycdn https://tools.keycdn.com/speed
+Hız optimizasyonu eklenti:
+https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=tr
+Proje yapımı
+
+
+Day 2:
+Typescript https://www.typescriptlang.org/download
+tsc typescript.ts // tsc typescript.ts -w  => farkı
+https://medium.com/kodcular/react-typescript-514d2681e611
+Figma
+A11Y Introduction
+Proje yapımı
+Değerlendirme
+Soru cevap

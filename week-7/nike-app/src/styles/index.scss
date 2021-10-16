@@ -1,0 +1,149 @@
+html {
+  font-size: 16px;
+}
+@media (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+}
+header {
+  background: #eee;
+  padding: 8px 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-right-menu {
+  span {
+    font-size: .8rem;
+    color: #222;
+    font-weight: 600;
+    &:hover {
+      color: rgba(0, 0, 0, 0.6);
+    }
+    /* &::after {
+      content: '|';
+    } */
+  }
+  span:not(:first-child) {
+    margin-left: 8px;
+    border-left: 1px solid #000;
+    padding-left: 8px;
+  }
+}
+.header-menu {
+  padding: 8px 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & > div {
+    flex: 1;
+  }
+}
+.menu-items {
+  text-align: center;
+  span {
+    font-weight: 600;
+    padding-bottom: 8px;
+    &:hover {
+      border-bottom: 2px solid #000;
+    }
+  }
+  span:not(:first-child) {
+    margin-left: 12px;
+  }
+  flex: 2 !important;
+}
+.header-menu-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .header-icons {
+    svg {
+      margin-left: 12px;
+    }
+  }
+}
+.search-container {
+  input {
+    padding: 12px;
+    padding-left: 40px;
+    border-radius: 12px;
+    background-color: #eee;
+    border: none;
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.3)
+    }
+  }
+  position: relative;
+  svg {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+  }
+}
+.notification-wrapper {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  span {
+    font-size: .8rem;
+    &:last-child {
+      text-decoration: underline;
+    }
+  }
+  div {
+    &::before, &::after {
+      content: '';
+      border: solid rgba(0, 0, 0, 0.3);
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 4px;
+    }
+    &::before {
+      transform: rotate(135deg);
+      margin-right: 46px;
+    }
+    &::after {
+      transform: rotate(-45deg);
+      margin-left: 46px;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  & > div:first-child {
+    flex: 2;
+    // min-width: 300px;
+  }
+  & > div:last-child {
+    flex: 5;
+    // flex-basis: 100%;
+  }
+}
+
+.section-container {
+  max-height: 620px;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  gap: 10px
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.img-content {
+  .name {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 12px 0 0;
+  }
+  padding: 0 8px;
+}
