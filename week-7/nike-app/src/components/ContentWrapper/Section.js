@@ -1,15 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Card from '../shared/Card';
+import { useSelector } from 'react-redux';
 
 const Section = () => {
-  const [characters, setCharacters] = useState([]);
-  useEffect(() => {
-    fetch('https://rickandmortyapi.com/api/character')
-    .then(res => res.json())
-    .then(response => {
-      setCharacters(response.results);
-    })
-  }, []);
+  const characters = useSelector(state => {
+    console.log('general state', state);
+    return state.filteredData
+  });
 
   return (
     <div className="section-container">

@@ -16,13 +16,15 @@ Hız optimizasyonu eklenti:
 https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=tr
 Proje yapımı
 
-
 Day 2:
+Figma, ADOBE
 Typescript https://www.typescriptlang.org/download
 tsc typescript.ts // tsc typescript.ts -w  => farkı
 https://medium.com/kodcular/react-typescript-514d2681e611
-Figma
+https://kentcdodds.com/blog/how-to-write-a-react-component-in-typescript
 A11Y Introduction
+https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript
 Proje yapımı
+https://redux.js.org/tutorials/essentials/part-5-async-logic
 Değerlendirme
 Soru cevap
